@@ -380,7 +380,7 @@ def home():
     """Home endpoint with service information"""
     return jsonify({
         "status": "API Running",
-        "developer": "@Farooq_is_king",
+        "developer": "@Aotpy / Tobi / Paras",
         "usage": "/api?url=TERABOX_SHARE_URL",
         "supported_domains": SUPPORTED_DOMAINS,
         "cookie_status": "valid",
