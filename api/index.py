@@ -10,10 +10,7 @@ from urllib.parse import urlparse, parse_qs
 
 app = Flask(__name__)
 
-# ====== 🇮🇳 ==============
-# # © Developer = WOODcraft 
-# ========================
-# Configuration
+
 REQUEST_TIMEOUT = 30
 MAX_RETRIES = 3
 RETRY_DELAY = 2
